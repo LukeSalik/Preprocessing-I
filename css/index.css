@@ -135,9 +135,12 @@ body {
   height: 100%;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
-h1,
-h2,
-h3 {
+html h1,
+body h1,
+html h2,
+body h2,
+html h3,
+body h3 {
   font-family: 'Bangers', cursive;
   letter-spacing: 1px;
   margin-bottom: 15px;
@@ -145,4 +148,19 @@ h3 {
 .container {
   width: 880px;
   margin: auto;
+}
+header {
+  border-bottom: 1px solid black;
+  margin: 20px 0;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  justify-content: flex-end;
+}
+header nav {
+  margin-left: 62px;
+}
+header a {
+  margin-left: 20px;
+  font-size: 1.5rem;
 }
