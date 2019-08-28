@@ -133,7 +133,7 @@ table {
 html,
 body {
   height: 100%;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Verdana, 'Geneva', sans-serif;
 }
 html h1,
 body h1,
@@ -141,8 +141,8 @@ html h2,
 body h2,
 html h3,
 body h3 {
-  font-family: 'Bangers', cursive;
-  letter-spacing: 1px;
+  font-family: Verdana, 'Geneva', sans-serif;
+  /*letter-spacing: 1px;*/
   margin-bottom: 15px;
 }
 .container {
@@ -150,9 +150,9 @@ body h3 {
   margin: auto;
 }
 header {
-  border-bottom: 1px solid black;
-  margin: 20px 0;
-  padding: 20px 0;
+  border-bottom: 1px solid  dodgerblue;
+  margin: 10px 0;
+  padding: 30px 0;
   display: flex;
   justify-content: space-around;
   justify-content: flex-end;
@@ -162,6 +162,115 @@ header nav {
 }
 header a {
   margin-left: 20px;
-  font-size: 1.5rem;
+  font-size: 0.875em;
   text-decoration: none;
+  color: black;
+  /*@color*/
+}
+.intro {
+  display: flex;
+  margin: 50px 0px;
+  padding-bottom: 30px;
+  justify-content: flex-start;
+  border-bottom: 1px solid dodgerblue;
+}
+.intro h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.intro .intro-text {
+  font-size: 18px;
+  /*change font*/
+}
+.intro p {
+  line-height: 2;
+}
+.intro .intro-para {
+  margin-top: 40px;
+  font-size: 15px;
+}
+.intro .smash-btn {
+  margin: 20px;
+  cursor: pointer;
+  width: 80px;
+  height: 27px;
+  font-size: 15px;
+  border-radius: 10px;
+  /*@color*/
+  background-color: #6e8b99;
+  color: whitesmoke;
+}
+.about {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid  dodgerblue;
+  padding-bottom: 35px;
+  font-size: 15px;
+  line-height: 18px;
+  /* ul {
+		list-style-type: none;
+	}
+    li {
+		margin: 10px 0;
+	}*/
+}
+.about h2 {
+  font-size: 18px;
+}
+.about .about-list {
+  padding-right: 175px;
+}
+.about .about-text {
+  margin: 10px;
+}
+.table {
+  border-bottom: 1px solid  dodgerblue;
+  margin: 50px 0px;
+  padding-bottom: 50px;
+  font-size: 15px;
+}
+.table table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+.table td,
+.table th {
+  border: none;
+  text-align: left;
+  padding: 8px;
+  margin: 10px 0;
+}
+.table h2 {
+  font-size: 18px;
+}
+.table #b {
+  font-weight: bold;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 35px;
+  font-size: 15px;
+  line-height: 18px;
+  margin: 10px;
+}
+.contact h4 {
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+.contact p {
+  margin: 10px 0;
+}
+footer {
+  text-align: center;
+  margin: 40px 0 20px;
+  height: 50px;
+  width: 100%;
+  background-color: #6e8b99;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  color: whitesmoke;
+  padding-top: 18px;
 }
